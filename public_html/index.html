@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Header & Footer</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Iconstar Business</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                    
+                    <li class="nav__item dropdown">
+                        <a href="#" class="nav__link">Services <i class="fa-solid fa-chevron-down dropdown__icon"></i></a>
+                        <ul class="dropdown__menu">
+                            <li class="dropdown__item"><a href="#" class="dropdown__link">Mobile Recharge</a></li>
+                            <li class="dropdown__item"><a href="#" class="dropdown__link">Dth Recharge</a></li>
+                            <li class="dropdown__item"><a href="#" class="dropdown__link">Apes/Matm Machine</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <span class="material-symbols-outlined">close</span>
+                </div>
+            </div>
+
+            <div class="nav__actions">
+                <a href="#" class="nav__action-button">Login</a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <span class="material-symbols-outlined">menu</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <h1>Mobile/DTH Recharge/Mirco ATM Recharge</h1>
+        <p>Ours Servics Good and Fine</p>
+        <div class="recharge-card">
+        <div class="card-header">
+            <h2>बनें अपने इलाके के 'रिचार्ज किंग'!</h2>
+            <p>सिर्फ एक ID से शुरू करें अपना शानदार बिज़नेस और कमाएं हर रिचार्ज पर।</p>
+        </div>
+
+        <div class="card-body">
+            <h3 class="section-title">हमारी Super Distributor ID में क्या ख़ास है?</h3>
+            <ul class="features-list">
+                <li>सभी कंपनियों का मोबाइल रिचार्ज</li>
+                <li>DTH रिचार्ज और बिल पेमेंट</li>
+                <li>सबसे बेहतरीन और ज़्यादा कमीशन</li>
+                <li>एक ही वॉलेट से सारे काम</li>
+                <li>आसान और फ़ास्ट पोर्टल/ऐप</li>
+                <li>अपने नीचे अनलिमिटेड रिटेलर बनाएं</li>
+                <li>24x7 भरोसेमंद कस्टमर सपोर्ट</li>
+                <li>तुरंत ID एक्टिवेशन की सुविधा</li>
+            </ul>
+        </div>
+
+        <div class="card-cta">
+            <h3>अब सोचना क्या? मौके को हाथ से जाने न दें!</h3>
+            <a href="https://wa.me/916387215755?text=नमस्ते,%20मुझे%20रिचार्ज%20डिस्ट्रीब्यूटर%20ID%20चाहिए।" class="cta-button">
+                आज ही WhatsApp पर जुड़ें
+            </a>
+        </div>
+    </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__section">
+                <h3 class="footer__title">About Us</h3>
+                <p class="footer__description">
+                    We are a team dedicated to provide mobile recharge and dth recharge id to shop holder.
+                </p>
+            </div>
+
+            <div class="footer__section">
+                <h3 class="footer__title">Quick Links</h3>
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">Careers</a></li>
+                    <li><a href="#" class="footer__link">Blog</a></li>
+                    <li><a href="#" class="footer__link">Privacy Policy</a></li>
+                    <li><a href="#" class="footer__link">Terms of Service</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__section">
+                <h3 class="footer__title">Contact</h3>
+                <div class="footer__contact">
+                    <p><i class="fa-solid fa-location-dot"></i> Lucknow, UP, India</p>
+                    <p><i class="fa-solid fa-envelope"></i>abhishekofficialmail09@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 6387215755</p>
+                </div>
+            </div>
+            
+            <div class="footer__section">
+                <h3 class="footer__title">Newsletter</h3>
+                <p class="footer__description">Subscribe to get our latest updates.</p>
+                <form class="footer__form" id="newsletter-form">
+                    <input type="email" placeholder="Enter your email" class="footer__input" id="newsletter-email" required>
+                    <button type="submit" class="footer__button">Subscribe</button>
+                </form>
+                <p id="form-message"></p>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <div class="footer__socials">
+                <a href="https://www.facebook.com/share/16xbgjJS2N/" class="footer__social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/share/16xbgjJS2N/" class="footer__social-link"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/iconstar_business?igsh=MWpsYWxyZXZmZWE1NQ==" class="footer__social-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/iconstar_business?igsh=MWpsYWxyZXZmZWE1NQ==" class="footer__social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p class="footer__copy">&#169; <span id="current-year"></span> Gemini. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
